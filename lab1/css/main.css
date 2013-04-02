@@ -1,0 +1,33 @@
+html{
+	background: #f6f4f0;
+	font-family: helvetica, arial, sans-serif;
+}
+input, textarea, select {
+   border: 1px solid #2b656b;
+   line-height: 1.2em;
+   font-size: 0.85em;
+   background: #fff;
+   color: #313639;
+   padding: 0.5em;
+   width: 80%;
+   -webkit-box-shadow: 1px 1px 1px #fff;
+   			-webkit-border-radius: 0.5em;
+   				-webkit-appearance: none;
+  
+ }
+ input[type=checkbox], input[type=radio]{
+   
+	vertical-align: text-top;
+	margin: 0 0.25em 0 0;
+  	display: inline-block;
+	font-size: 0.85em;
+	line-height: 1em;
+	height: 1.25em;
+	width: 1.25em;
+	padding: 0;
+   -webkit-border-radius: 0.25em;
+}
+
+input[type=radio] {
+    -webkit-border-radius: 2em;   
+}
